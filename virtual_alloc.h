@@ -35,3 +35,5 @@ int virtual_free(void * heapstart, void * ptr);
 void * virtual_realloc(void * heapstart, void * ptr, uint32_t size);
 
 void virtual_info(void * heapstart);
+
+void add_ir_item(struct state_info *, uint32_t, uint32_t);
